@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- header -->
+        <header>
+            <div class="logo">COMPRESSION</div>
+            <ul class="menu">
+                <li><a href="Home"></a></li>
+                <li><a href="compression text"></a></li>
+                <li><a href="about"></a></li>
+            </ul>
+            <div class="search">
+                <svg
+                    aria-hidden="true"
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 20 20"
+                >
+                    <path
+                        stroke="currentColor"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                    />
+                </svg>
+            </div>
+        </header>
+
+        <!-- slider -->
+
+        <div class="slider">
+            <!-- list Items -->
+            <div class="list">
+                <div class="item active">
+                    <img src="image/img1.png" />
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Image 01</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Labore, neque? Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum, ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img2.jpg" />
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Image 02</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Labore, neque? Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum, ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img3.jpg" />
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Image 03</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Labore, neque? Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum, ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img4.jpg" />
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Image 04</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Labore, neque? Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum, ex.
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="image/img5.jpg" />
+                    <div class="content">
+                        <p>design</p>
+                        <h2>Image 05</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Labore, neque? Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Ipsum, ex.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- button arrows -->
+            <div class="arrows">
+                <button id="prev"><</button>
+                <button id="next">></button>
+            </div>
+            <!-- thumbnail -->
+            <div class="thumbnail">
+                <div class="item active">
+                    <img src="image/img1.png" />
+                </div>
+                <div class="item">
+                    <img src="image/img2.jpg" />
+                </div>
+                <div class="item">
+                    <img src="image/img3.jpg" />
+                </div>
+                <div class="item">
+                    <img src="image/img4.jpg" />
+                </div>
+                <div class="item">
+                    <img src="image/img5.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="hero">
+            <div class="compression">
+                <div class="main_content">
+                    <h1 class="heading">Image Compressor</h1>
+                    <input type="file" id="my_image" />
+
+                    <div>Original Image</div>
+                    <div id="original_image_container"></div>
+                    <span>Compressed Image</span>
+                    <div id="compressed_image_container"></div>
+                </div>
+            </div>
+        </div>
+        <!-- footter -->
+        <footer class="ftr">
+            <div class="container">
+                <div class="ftr__inner">
+                    <div class="ftr__row">
+                        <!-- Footer Logo -->
+                        <span>Compression</span>
+                        <!-- Footer CTA -->
+                        <div class="ftr__cta-wrap">
+                            <p class="ftr__cta-title">Ready to get started?</p>
+                            <button
+                                class="btn btn--fill-gradient-theme ftr__cta-btn"
+                            >
+                                Get Started
+                            </button>
+                        </div>
+                    </div>
+                    <div class="ftr__line"></div>
+                    <div class="ftr__row">
+                        <div class="ftr__col">
+                            <img
+                                src="./project/images/task-logo.svg"
+                                alt="Task. Logo"
+                                class="ftr__logo-mobile"
+                            />
+                            <!-- Footer Subcribe -->
+                            <h2 class="ftr__sub">
+                                Subscribe to our newsletter
+                            </h2>
+                            <!-- Subcribe Form -->
+                            <form action="" class="sub-form">
+                                <div class="sub-form__wrap">
+                                    <input
+                                        id=""
+                                        class="sub-form__input"
+                                        type="email"
+                                        name=""
+                                        placeholder="Your Email Address"
+                                        pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                                    />
+                                    <button
+                                        class="btn btn--fill-gradient-theme sub-form__btn"
+                                        type="submit"
+                                    >
+                                        <svg
+                                            class="sub-form__btn-icon"
+                                            width="8"
+                                            height="13"
+                                            viewBox="0 0 8 13"
+                                            fill="none"
+                                            xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                            <path
+                                                d="M1 1L6.5 6.5L1 12"
+                                                stroke="#F9F9F9"
+                                                stroke-width="1.5"
+                                                stroke-linecap="round"
+                                                stroke-linejoin="round"
+                                            />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </form>
+                            <!-- Footer Socials -->
+                            <div class="ftr__socials-list">
+                                <!-- Facebook -->
+                                <a
+                                    href="#!"
+                                    class="btn btn--fill-theme ftr__socials-item"
+                                >
+                                    <svg
+                                        width="10"
+                                        height="19"
+                                        viewBox="0 0 10 19"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M10 7.30769H6.66667V4.38462C6.66667 3.57785 7.264 3.65385 8 3.65385H9.33333V0H6.66667C4.45733 0 2.66667 1.96285 2.66667 4.38462V7.30769H0V10.9615H2.66667V19H6.66667V10.9615H8.66667L10 7.30769Z"
+                                            fill="#F9F9F9"
+                                        />
+                                    </svg>
+                                </a>
+                                <!-- Twitter -->
+                                <a
+                                    href="#!"
+                                    class="btn btn--fill-theme ftr__socials-item"
+                                >
+                                    <svg
+                                        width="20"
+                                        height="15"
+                                        viewBox="0 0 20 15"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M19.7031 1.77577C18.9966 2.07692 18.2437 2.27654 17.4587 2.37346C18.2662 1.905 18.8826 1.16885 19.1723 0.281538C18.4194 0.717692 17.5882 1.02577 16.7023 1.19769C15.9874 0.458077 14.9686 0 13.8571 0C11.7006 0 9.96444 1.70077 9.96444 3.78577C9.96444 4.08577 9.99056 4.37423 10.0547 4.64885C6.81637 4.49538 3.95094 2.98731 2.026 0.69C1.68994 1.25654 1.49281 1.905 1.49281 2.60308C1.49281 3.91385 2.1875 5.07577 3.223 5.74846C2.59719 5.73692 1.98325 5.56038 1.46312 5.28231C1.46312 5.29385 1.46312 5.30885 1.46312 5.32385C1.46312 7.16308 2.81331 8.69077 4.58387 9.04269C4.26681 9.12692 3.92125 9.16731 3.56262 9.16731C3.31325 9.16731 3.0615 9.15346 2.82519 9.10269C3.32987 10.6015 4.762 11.7035 6.46488 11.7392C5.13963 12.7465 3.45694 13.3535 1.63531 13.3535C1.31588 13.3535 1.0095 13.3396 0.703125 13.3015C2.42856 14.3827 4.47344 15 6.67863 15C13.8464 15 17.7651 9.23077 17.7651 4.23C17.7651 4.06269 17.7592 3.90115 17.7509 3.74077C18.5239 3.20769 19.1735 2.54192 19.7031 1.77577Z"
+                                            fill="#F9F9F9"
+                                        />
+                                    </svg>
+                                </a>
+                                <!-- Linkedin -->
+                                <a
+                                    href="#!"
+                                    class="btn btn--fill-theme ftr__socials-item"
+                                >
+                                    <svg
+                                        width="15"
+                                        height="14"
+                                        viewBox="0 0 15 14"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M0.663889 14H3.05029V4.10714H0.663889V14ZM1.87414 2.92857C2.70938 2.92857 3.34007 2.28571 3.34007 1.46429C3.34007 0.642857 2.70938 0 1.87414 0C1.02185 0 0.408203 0.642857 0.408203 1.46429C0.408203 2.28571 1.02185 2.92857 1.87414 2.92857Z"
+                                            fill="#F9F9F9"
+                                        />
+                                        <path
+                                            d="M12.0218 14H14.4082V8.19643C14.4082 5.46429 12.84 3.96429 10.6411 3.96429C9.43085 3.96429 8.40811 4.5 7.79446 5.33929V4.10714H5.40806V14H7.79446V8.53571C7.79446 6.94643 8.6297 6.08929 9.92518 6.08929C11.1866 6.08929 12.0218 6.94643 12.0218 8.53571V14Z"
+                                            fill="#F9F9F9"
+                                        />
+                                    </svg>
+                                </a>
+                            </div>
+                            <!-- Footer Menu Mobile -->
+                            <img
+                                src="./project/images/icon/menu-mobile.svg"
+                                alt="Menu Mobile"
+                                class="ftr__menu-mobile"
+                            />
+                        </div>
+                        <!-- Footer Navigation List -->
+                        <!-- Footer Navigation Column 01 -->
+                        <section class="ftr__col">
+                            <h3 class="ftr__heading">Services</h3>
+                            <ul class="ftr__list">
+                                <li class="ftr__item">
+                                    <a href="#!" class="ftr__link">
+                                        Email Marketing
+                                    </a>
+                                </li>
+                                <li class="ftr__item">
+                                    <a href="#!" class="ftr__link">
+                                        Campaigns
+                                    </a>
+                                </li>
+                                <li class="ftr__item">
+                                    <a href="#!" class="ftr__link">
+                                        Branding
+                                    </a>
+                                </li>
+                                <li class="ftr__item">
+                                    <a href="#!" class="ftr__link"> Online </a>
+                                </li>
+                            </ul>
+                        </section>
+                        <!-- Footer Navigation Column 02 -->
+                        <section class="ftr__col">
+                            <h3 class="ftr__heading">About</h3>
+                            <ul class="ftr__list">
+                                <li class="ftr__item">
+                                    <a href="#!" class="ftr__link">
+                                        Out Story
+                                    </a>
+                                </li>
+                                <li class="ftr__item">
+                                    <a href="#!" class="ftr__link">
+                                        Benefits
+                                    </a>
+                                </li>
+                                <li class="ftr__item">
+                                    <a href="#!" class="ftr__link"> Team </a>
+                                </li>
+                                <li class="ftr__item">
+                                    <a href="#!" class="ftr__link"> Careers </a>
+                                </li>
+                            </ul>
+                        </section>
+                        <!-- Footer Navigation Column 03 -->
+                        <section class="ftr__col">
+                            <h3 class="ftr__heading">Help</h3>
+                            <ul class="ftr__list">
+                                <li class="ftr__item">
+                                    <a href="#!" class="ftr__link"> FAQs </a>
+                                </li>
+                                <li class="ftr__item">
+                                    <a href="#!" class="ftr__link">
+                                        Contact Us
+                                    </a>
+                                </li>
+                            </ul>
+                        </section>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- hero -->
+        <script src="app.js"></script>
+    </body>
+</html>
